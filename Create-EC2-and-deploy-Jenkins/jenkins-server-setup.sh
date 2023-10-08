@@ -26,6 +26,3 @@ sudo mkdir -p $HOME/bin && sudo cp ./kubectl $HOME/bin/kubectl && export PATH=$P
 
 # install tfsec
 sudo curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
-
-# install tflint
-sudo curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
